@@ -1,0 +1,84 @@
+{
+  "scenarios": [
+    {
+      "id": "transport",
+      "title": "Auto & Bus",
+      "icon": "🛺",
+      "intro": "Getting around Bengaluru, Mysuru and beyond.",
+      "phrases": [
+        {"en": "Where is the bus stand?", "kn": "ಬಸ್ ನಿಲ್ದಾಣ ಎಲ್ಲಿದೆ?", "tr": "Bus nildaana ellide?", "tip": "Add 'ellide' (where is it) after any place name."},
+        {"en": "Please take me to Majestic.", "kn": "ದಯವಿಟ್ಟು ನನ್ನನ್ನು ಮೆಜೆಸ್ಟಿಕ್‌ಗೆ ಕರೆದುಕೊಂಡು ಹೋಗಿ.", "tr": "Dayavittu nannannu Majestic-ge karedukondu hogi.", "tip": "Swap 'Majestic' for any destination."},
+        {"en": "Will you come by meter?", "kn": "ಮೀಟರ್ ಮೇಲೆ ಬರ್ತೀರಾ?", "tr": "Meter mele bartira?", "tip": "Ask this before you sit in an auto."},
+        {"en": "How much is the fare?", "kn": "ಚಾರ್ಜ್ ಎಷ್ಟು?", "tr": "Charge eshtu?", "tip": "'Eshtu' means 'how much'."},
+        {"en": "Stop here, please.", "kn": "ಇಲ್ಲಿ ನಿಲ್ಲಿಸಿ.", "tr": "Illi nillisi.", "tip": "Polite form, safe with any driver."},
+        {"en": "One ticket to Mysuru, please.", "kn": "ಮೈಸೂರಿಗೆ ಒಂದು ಟಿಕೆಟ್ ಕೊಡಿ.", "tr": "Mysurige ondu ticket kodi.", "tip": "The ending '-ige' or '-ge' means 'to'."},
+        {"en": "Does this bus go to Indiranagar?", "kn": "ಈ ಬಸ್ ಇಂದಿರಾನಗರಕ್ಕೆ ಹೋಗುತ್ತಾ?", "tr": "Ee bus Indiranagarakke hogutta?", "tip": "Ask the conductor before boarding."},
+        {"en": "Please turn left.", "kn": "ಎಡಕ್ಕೆ ತಿರುಗಿ.", "tr": "Edakke tirugi.", "tip": "For right, say 'Balakke tirugi' (ಬಲಕ್ಕೆ ತಿರುಗಿ)."}
+      ]
+    },
+    {
+      "id": "shopping",
+      "title": "Shopping & Market",
+      "icon": "🛍️",
+      "intro": "Markets, shops and street vendors.",
+      "phrases": [
+        {"en": "How much is this?", "kn": "ಇದು ಎಷ್ಟು?", "tr": "Idu eshtu?", "tip": "Point at the item while asking."},
+        {"en": "Please reduce the price.", "kn": "ಸ್ವಲ್ಪ ಕಡಿಮೆ ಮಾಡಿ.", "tr": "Swalpa kadime maadi.", "tip": "Literally 'make it a little less'. Bargaining is normal in markets."},
+        {"en": "Give me one kilo of tomatoes.", "kn": "ಒಂದು ಕೆಜಿ ಟೊಮೇಟೊ ಕೊಡಿ.", "tr": "Ondu kg tomato kodi.", "tip": "Replace 'tomato' with any vegetable. 'Kodi' means 'give'."},
+        {"en": "Do you have change?", "kn": "ಚಿಲ್ಲರೆ ಇದೆಯಾ?", "tr": "Chillare ideya?", "tip": "Useful for small purchases with big notes."},
+        {"en": "Can I pay by UPI?", "kn": "ಯುಪಿಐ ಮೂಲಕ ಪಾವತಿಸಬಹುದಾ?", "tr": "UPI moolaka paavatisabahuda?", "tip": "Look for the QR code first."},
+        {"en": "Please show me another one.", "kn": "ಇನ್ನೊಂದನ್ನು ತೋರಿಸಿ.", "tr": "Innondannu torisi.", "tip": "'Torisi' means 'show'."},
+        {"en": "I will take this.", "kn": "ನಾನು ಇದನ್ನು ತಗೊಳ್ತೀನಿ.", "tr": "Naanu idannu tagolteeni.", "tip": "Casual spoken form, very common."},
+        {"en": "Please give me a bag.", "kn": "ಒಂದು ಚೀಲ ಕೊಡಿ.", "tr": "Ondu cheela kodi.", "tip": "'Cheela' means bag."}
+      ]
+    },
+    {
+      "id": "healthcare",
+      "title": "Healthcare",
+      "icon": "🏥",
+      "intro": "Clinics, pharmacies and emergencies.",
+      "phrases": [
+        {"en": "I need a doctor.", "kn": "ನನಗೆ ಡಾಕ್ಟರ್ ಬೇಕು.", "tr": "Nanage doctor beku.", "tip": "'Nanage ... beku' means 'I need ...'."},
+        {"en": "I have a fever.", "kn": "ನನಗೆ ಜ್ವರ ಇದೆ.", "tr": "Nanage jwara ide.", "tip": "Pattern: 'Nanage ___ ide' means 'I have ___'."},
+        {"en": "I have a headache.", "kn": "ನನಗೆ ತಲೆನೋವು ಇದೆ.", "tr": "Nanage talenovu ide.", "tip": "'Tale' is head, 'novu' is pain."},
+        {"en": "I have stomach pain.", "kn": "ನನಗೆ ಹೊಟ್ಟೆ ನೋವು ಇದೆ.", "tr": "Nanage hotte novu ide.", "tip": "'Hotte' means stomach."},
+        {"en": "Where is the pharmacy?", "kn": "ಮೆಡಿಕಲ್ ಶಾಪ್ ಎಲ್ಲಿದೆ?", "tr": "Medical shop ellide?", "tip": "Pharmacies are commonly called 'medical shop'."},
+        {"en": "I am allergic to this medicine.", "kn": "ನನಗೆ ಈ ಔಷಧಿ ಅಲರ್ಜಿ.", "tr": "Nanage ee aushadhi allergy.", "tip": "Important to say before taking any medicine."},
+        {"en": "Please call an ambulance.", "kn": "ದಯವಿಟ್ಟು ಆಂಬ್ಯುಲೆನ್ಸ್ ಕರೆಯಿರಿ.", "tr": "Dayavittu ambulance kareyiri.", "tip": "Emergency number in India: 112."},
+        {"en": "How many times a day should I take this?", "kn": "ಇದನ್ನು ದಿನಕ್ಕೆ ಎಷ್ಟು ಸಲ ತಗೋಬೇಕು?", "tr": "Idannu dinakke eshtu sala tagobeku?", "tip": "Ask the pharmacist to write it down as well."}
+      ]
+    },
+    {
+      "id": "workplace",
+      "title": "Workplace",
+      "icon": "💼",
+      "intro": "Everyday office and colleague conversations.",
+      "phrases": [
+        {"en": "Good morning, sir.", "kn": "ಶುಭೋದಯ ಸರ್.", "tr": "Shubhodaya sir.", "tip": "'Namaskara' works at any time of day."},
+        {"en": "My name is Anil.", "kn": "ನನ್ನ ಹೆಸರು ಅನಿಲ್.", "tr": "Nanna hesaru Anil.", "tip": "Replace the name with your own."},
+        {"en": "Please wait a moment.", "kn": "ಸ್ವಲ್ಪ ಹೊತ್ತು ಕಾಯಿರಿ.", "tr": "Swalpa hottu kaayiri.", "tip": "Polite request form."},
+        {"en": "I did not understand. Please say it again.", "kn": "ನನಗೆ ಅರ್ಥವಾಗಲಿಲ್ಲ. ದಯವಿಟ್ಟು ಇನ್ನೊಮ್ಮೆ ಹೇಳಿ.", "tr": "Nanage arthavagalilla. Dayavittu innomme heli.", "tip": "The most useful sentence for a learner."},
+        {"en": "Please speak slowly.", "kn": "ದಯವಿಟ್ಟು ನಿಧಾನವಾಗಿ ಮಾತನಾಡಿ.", "tr": "Dayavittu nidhaanavaagi maatanaadi.", "tip": "'Nidhaana' means slow."},
+        {"en": "The work will be finished by evening.", "kn": "ಕೆಲಸ ಸಂಜೆಯ ಹೊತ್ತಿಗೆ ಮುಗಿಯುತ್ತದೆ.", "tr": "Kelasa sanjeya hottige mugiyuttade.", "tip": "'Kelasa' means work."},
+        {"en": "Thank you for your help.", "kn": "ನಿಮ್ಮ ಸಹಾಯಕ್ಕೆ ಧನ್ಯವಾದಗಳು.", "tr": "Nimma sahaayakke dhanyavaadagalu.", "tip": "Casual: 'Thank you' is also widely used."},
+        {"en": "Can we have a meeting tomorrow?", "kn": "ನಾಳೆ ಮೀಟಿಂಗ್ ಮಾಡೋಣವಾ?", "tr": "Naale meeting maadonava?", "tip": "'Naale' means tomorrow."}
+      ]
+    },
+    {
+      "id": "food",
+      "title": "Food & Restaurants",
+      "icon": "🍽️",
+      "intro": "Ordering at darshinis, hotels and restaurants.",
+      "phrases": [
+        {"en": "A table for two, please.", "kn": "ಇಬ್ಬರಿಗೆ ಟೇಬಲ್ ಬೇಕು.", "tr": "Ibbarige table beku.", "tip": "Numbers: ondu 1, eradu 2, mooru 3."},
+        {"en": "What is available?", "kn": "ಏನು ಸಿಗುತ್ತದೆ?", "tr": "Enu siguttade?", "tip": "Handy at small eateries with no menu."},
+        {"en": "One masala dosa, please.", "kn": "ಒಂದು ಮಸಾಲೆ ದೋಸೆ ಕೊಡಿ.", "tr": "Ondu masale dose kodi.", "tip": "Swap in idli, vada or any dish."},
+        {"en": "Less spicy, please.", "kn": "ಖಾರ ಕಡಿಮೆ ಹಾಕಿ.", "tr": "Khaara kadime haaki.", "tip": "'Khaara' means spicy."},
+        {"en": "Water, please.", "kn": "ನೀರು ಕೊಡಿ.", "tr": "Neeru kodi.", "tip": "'Neeru' means water."},
+        {"en": "Bill, please.", "kn": "ಬಿಲ್ ಕೊಡಿ.", "tr": "Bill kodi.", "tip": "Same 'kodi' pattern as everywhere else."},
+        {"en": "I am vegetarian.", "kn": "ನಾನು ಸಸ್ಯಾಹಾರಿ.", "tr": "Naanu sasyaahaari.", "tip": "Non-vegetarian is 'maamsaahaari'."},
+        {"en": "The food was very tasty.", "kn": "ಊಟ ತುಂಬಾ ರುಚಿಯಾಗಿತ್ತು.", "tr": "Oota tumba ruchiyagittu.", "tip": "A kind compliment goes a long way."}
+      ]
+    }
+  ]
+}

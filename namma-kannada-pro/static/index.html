@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Namma Kannada · Kannada for everyday life</title>
+<meta name="description" content="Learn and use Kannada in real situations: autos, markets, clinics, work and food. Voice, AI roleplay, sign scanner, works offline.">
+<meta name="theme-color" content="#0d0e1c">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="icon" href="/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/icon-192.png">
+<link rel="stylesheet" href="/app.css">
+</head>
+<body>
+<a class="skip" href="#view">Skip to content</a>
+<header class="top">
+  <a class="brand" href="#home" aria-label="Namma Kannada home"><span class="logo" lang="kn">ಕ</span><b>Namma Kannada</b></a>
+  <span id="net" class="pill ok" role="status">Online</span>
+</header>
+<main id="view" tabindex="-1"><div class="card skeleton">Loading…</div></main>
+<nav class="tabs" aria-label="Main">
+  <a href="#home"><i>🏠</i>Home</a>
+  <a href="#phrases"><i>📖</i>Phrases</a>
+  <a href="#translate"><i>🌐</i>Translate</a>
+  <a href="#talk"><i>💬</i>Talk</a>
+  <a href="#scan"><i>📷</i>Scan</a>
+  <a href="#practice"><i>🧠</i>Practice</a>
+</nav>
+<div id="toast" role="status" aria-live="polite"></div>
+<div id="show" hidden role="dialog" aria-modal="true" aria-label="Show to someone">
+  <div class="big" id="show-kn" lang="kn"></div>
+  <div class="rom" id="show-rom"></div>
+  <div class="en" id="show-en"></div>
+  <div class="row"><button class="btn primary" data-act="show-play">▶ Play</button><button class="btn" data-act="show-close">Close</button></div>
+</div>
+<script src="/app.js" defer></script>
+</body>
+</html>

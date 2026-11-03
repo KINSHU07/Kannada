@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: namma-kannada
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: HF_TOKEN
+        sync: false
+      - key: TRUST_PROXY
+        value: "1"
